@@ -1,0 +1,9 @@
+1. Library dictionary – update book price
+Copy code
+Python
+books = {"Math": 300, "Physics": 400, "Chemistry": 350}
+
+# Update price
+books["Physics"] = 450
+
+print(books)
