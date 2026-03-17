@@ -1,0 +1,3 @@
+feedback = "Great service!"
+reversed_feedback = feedback[::-1]
+print(reversed_feedback) # Output: !ecivres taerG
