@@ -1,0 +1,4 @@
+marks = [85, 92, 78, 90, 88]
+average = sum(marks) / len(marks)
+topper = max(marks)
+print(f"Average: {average}, Topper Marks: {topper}")
