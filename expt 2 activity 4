@@ -1,0 +1,17 @@
+# -*- expt 2 activity 4
+"""
+Created on Tue Mar 17 13:39:46 2026
+
+@author: Anjali 
+"""
+
+units = int(input("Enter electricity units: "))
+
+if units <= 100:
+    bill = 0
+elif units <= 200:
+    bill = (units - 100) * 5
+else:
+    bill = (100 * 5) + (units - 200) * 10
+
+print("Electricity Bill =", bill)
