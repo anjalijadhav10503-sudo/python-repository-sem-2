@@ -1,0 +1,3 @@
+prices = [19.99, 5.50, 12.00, 3.25]
+total_bill = sum(prices)
+print(f"Total Bill: ${total_bill}")
