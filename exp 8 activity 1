@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 21 12:24:24 2026
+
+@author: User
+"""
+
+balance = 5000
+
+try:
+    amount = float(input("Enter withdrawal amount: "))
+    
+    if amount > balance:
+        raise ValueError("Insufficient balance!")
+    
+    balance -= amount
+    print("Withdrawal successful. Remaining balance:", balance)
+
+except ValueError as e:
+    print("Error:", e)
